@@ -31,11 +31,12 @@ header {
 
 .nav_links {
   list-style: none;
-}
+ 
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 20px;
+    margin: 10;
+    padding: 30x 20px;
 }
 
 .nav_links li a { 
