@@ -41,3 +41,11 @@ input submit {
   border-radius: 4px;
   cursor: pointer;  
 }
+
+footer {
+  background-color: lightsalmon;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2rem;
+  border-top: 6px #efefef;
+}

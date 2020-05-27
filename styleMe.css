@@ -23,12 +23,13 @@ footer {
    padding: 30px;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-align: center;
-   
+     
 }
 
-footer h2 {
-  background-color: rgb(54, 179, 201);
-  padding: 0;
-  margin-left: 0;
-  font-size: 16px;
+footer {
+  background-color: lightsalmon;
+  text-align: center;
+  font-size: 14px;
+  line-height: 2rem;
+  border-top: 6px #efefef;
 }
