@@ -27,6 +27,9 @@ my code isn't a new style but it's the code I found for this particular portfoli
 6.CSS.style sheet
 7.productive, but I need help understanding and identifying elements that are linked from html.
 8.Grasping the concept of the border-box and floating.
+
+Validation URL:
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2Fkobac44%2FMobile-Responsive-Portfoliohttps://validator.w3.org/nu/?doc=https%3A%2F%2Fgithub.com%2Fkobac44%2FMobile-Responsive-Portfolio
 9.I found useful, youtubes and stack overflow as well as w3school and bootstrap.com, 
 but the searches needed left me with much needed a answer.
 10.Most of these developments are the common "trial and error"
