@@ -1,38 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Kobie Watkins</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <title>Kobie Watkins</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script scr="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="style.css"> 
+    </head>
 
 <body>
-    <!--Helpful youtube in my README getting applying this navbar code-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a href="#" class="navbar-brand">KOBIE WATKINS</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarMenu">
+    <!-- Helpful youtube in my README getting applying this navbar code--> 
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+                <span class="nav-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapse_target">
+            <span class="navbar-text">KOBIE WATKINS</span>
+    
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">About Me</a>
-                <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link">Portfolio</a>
-                <li class="nav-item">
-                    <a href="contacts.html" class="nav-link">Contact Info</a>
-                </li>
-
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="index.html"  data toggle="dropdown" data-target="dropdown_target">About Me
+                           <span class="caret"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-target">
+                            <ul class="navbar-nav">
+                            <a class="dropdown-item">Work</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Work</a>
+                            <a class="dropdown-item">Work</a>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="portfolio.html"  data toggle="dropdown" data-target="dropdown_target">Portfolio
+                            <span class="caret"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-target">
+                            <ul class="navbar-nav">
+                            <a class="dropdown-item">Work</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Work</a>
+                            <a class="dropdown-item">Work</a>
+                            </ul>
+                        </div>
+                    </li>
+    
+                    <li class="nav-itemd dropdown">
+                        <a class="nav-link dropdown-toggle" href="contacts.html"  data toggle="dropdown" data-target="dropdown_target">Contact Info
+                            <span class="caret"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown-target">
+                            <ul class="navbar-nav">
+                            <a class="dropdown-item">Work</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item">Work</a>
+                            <a class="dropdown-item">Work</a>
+                            </ul>
+                        </div>
+                    </li>
+    
             </ul>
-        </div>
-
-    </nav>
-    <br>
+            </div>
+            
+        </nav>
+    
 <!--Not completely clear about the "section"-->
 <section id="cont">
     <div class="contact-form">
@@ -45,25 +82,19 @@
 </section>
 <!--need more help developing proceedure for this code-->
     <div class="container">
-        <div class="row">
-        <div class="contact box">
-            <div class="form group">
-                <label class="label col-md-3"for="name">Name</label>
-                <input type="text" id="name" placeholder="Your name">
-            </div>
-            
-            <div class="form group">
-                <label class="label col-md-3" for="email">Email</label>
-                <input type="email" id="email" placeholder="Enter email">
+        <form class="form-inline" action="/action_page.php">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter email">
+
+            <div class="form-group3">
+            <label for="">Message</label>
+            <textarea class="form-control" id="Textarea1"></textarea>
             </div>
 
-            <div class="form-group">
-                <label for="Message">Message</label>
-                <textarea class="form-control" id="Textarea1" rows="3"></textarea>
-              </div>
-
-            <input type="submit" value="Submit"></form>
-            
+            <button type="submit">Submit</button>
+        </form>   
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -1,13 +1,19 @@
 * {
   box-sizing: border-box;
-
 }
 
 body {
   background-color: rgb(54, 179, 201);
   padding: 20px;
   margin-left: 20px;
-  font-family:'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 10;
 }
 
 .main {
@@ -19,11 +25,10 @@ body {
   max-width: 100%;
   float: left;
   height: auto;
-
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 1.3vw;
   word-spacing: unset;
 }
 
@@ -39,13 +44,13 @@ h2 {
 h3 {
   font-size: 18px;
   word-spacing: unset;
-  }
+}
 
 .row::after {
   max-width: 800px;
   margin-left: auto;
 }
-  
+
 h4 {
   font-size: 18px;
   word-spacing: unset;
