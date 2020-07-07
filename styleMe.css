@@ -3,6 +3,10 @@ body {
   margin: auto;
 }
 
+.navbar-brand {
+  height: 4rem;
+}
+
 .container {
   border: 2px solid #333;
   padding: 15px;

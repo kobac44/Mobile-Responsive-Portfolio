@@ -9,6 +9,10 @@ body {
   height: auto;
 }
 
+.navbar-brand {
+  height: 4rem;
+}
+
 #id {
   margin: 20px;
   padding: 20px;
