@@ -10,7 +10,8 @@ body {
 }
 
 .navbar-brand {
-  height: 4rem;
+  height: 3rem;
+  margin: 50px;
 }
 
 .container {
