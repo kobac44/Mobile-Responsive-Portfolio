@@ -67,7 +67,3 @@ footer {
   line-height: 2rem;
   border-top: 6px #efefef;
 }
-
-.container h2 {
-  background-image: cross-fade();
-}
