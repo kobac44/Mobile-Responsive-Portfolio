@@ -22,7 +22,8 @@ body {
 h1 {
   text-align: center;
 }
-z .container {
+
+.container {
   max-width: 600px;
   height: auto;
   background-color: #fff;
