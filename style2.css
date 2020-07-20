@@ -13,51 +13,8 @@ body {
   margin: 50px;
 }
 
-.container {
-  max-width: 800px;
-  margin: auto;
-  box-sizing: border-box;
-  padding: 10;
-}
-
-.main {
-  max-width: 800px;
-  margin: auto;
-}
-
-.img-fluid {
-  max-width: 100%;
-  float: left;
-  height: auto;
-}
-
-h2 {
-  font-size: 1.3vw;
-  word-spacing: unset;
-}
-
-.row {
-  margin-left: auto;
-}
-
-.row:after {
-  max-width: 800px;
-  margin-left: auto;
-}
-
-h3 {
-  font-size: 18px;
-  word-spacing: unset;
-}
-
-.row::after {
-  max-width: 800px;
-  margin-left: auto;
-}
-
-h4 {
-  font-size: 18px;
-  word-spacing: unset;
+h1 {
+  padding-right: 20px;
 }
 
 footer {
