@@ -4,15 +4,20 @@ body {
 }
 
 .navbar-brand {
-  height: 4rem;
+  height: 3rem;
 }
 
-.card1 {
+.container {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 20px;
   height: 300px;
   border: solid;
   border-color: teal;
+}
+
+
+
+
 
 footer {
   background-color: lightsalmon;
