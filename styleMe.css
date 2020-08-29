@@ -15,8 +15,10 @@ body {
   border-color: teal;
 }
 
-
-
+  .container2 {
+    padding-left: 10px;
+    padding-right: 250px;
+}
 
 
 footer {
