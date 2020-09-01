@@ -5,18 +5,30 @@ body {
 .navbar-brand {
   height: 4rem;
 }
+
+.container-md {
+  margin-right: 120px;
+  border: 40;
+}
+
+ul, li{
+  list-style:none;
+  list-style-type:none;
+  color: black; /* bullet color */
+}
+
 .card1 {
-  margin-top: 50px;
-  margin-left: 50px;
-  height: 300px;
-  border: solid;
-  border-color: rgb(5, 5, 5);
-  border-color: teal;
+  width: 300px;
+  height: 120px;
+  left: 700px;
+  margin: 40px;
+  bottom: 180px;
+}
 
 footer {
-  background-color: lightsalmon;
+ background-color: lightsalmon;
   text-align: center;
   font-size: 14px;
-  line-height: 2rem;
+  line-height: 1rem;
   border-top: 6px #efefef;
 }
